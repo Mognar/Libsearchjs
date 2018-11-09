@@ -17,5 +17,5 @@ document.body.prependChild(script);
 var script2 = document.createElement("noscript");
 
 // Add script content
-script2.innerHTML = "<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-599PHZN"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>"
+script2.innerHTML = "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-599PHZN\"
+height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"
