@@ -10,7 +10,7 @@ script.innerHTML = "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':ne
 
 // Append
 
-document.head.prependChild(script);
+document.head.appendChild(script);
 
 //Create the element
 
@@ -21,4 +21,4 @@ script2.innerHTML = "<iframe src=\"https://www.googletagmanager.com/ns.html?id=G
 
 // Append
 
-document.body.prependChild(script2);
+document.body.appendChild(script2);
