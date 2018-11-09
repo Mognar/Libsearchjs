@@ -21,4 +21,4 @@ script2.innerHTML = "<iframe src=\"https://www.googletagmanager.com/ns.html?id=G
 
 // Append
 
-document.body.prependChild(script);
+document.body.prependChild(script2);
