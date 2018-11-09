@@ -10,7 +10,7 @@ script.innerHTML = "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':ne
 
 // Append
 
-document.body.prependChild(script);
+document.head.prependChild(script);
 
 //Create the element
 
@@ -18,3 +18,7 @@ var script2 = document.createElement("noscript");
 
 // Add script content
 script2.innerHTML = "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-599PHZN\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"
+
+// Append
+
+document.body.prependChild(script);
