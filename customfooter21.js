@@ -6,5 +6,5 @@ $(document).ready( function () {
 document.body.style.height = '98%';
 
 $('.footer').append("<a ng-href='https://www.parliament.uk/site-information/accessibility/' ng-hide=\"view != 'search'\" href='https://www.parliament.uk/site-information/accessibility/'>Accessibility Statement</a>");
-};
+//};
 });
